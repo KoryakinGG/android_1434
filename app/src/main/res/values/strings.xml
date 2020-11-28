@@ -8,4 +8,5 @@
     <string name="correct">Правильно</string>
     <string name="incorrect">Неправильно</string>
     <string name="yes">Да</string>
+    <string name="no">Нет</string>
 </resources>

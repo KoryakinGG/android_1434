@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AnswerActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,3 +20,12 @@
     </application>
 
 </manifest>
+
+<!--
+Практическая работа
+1) Создать 3ю активность
+2) 3я активность  должна содержать в себе TextView
+3) 3 активность запускается тогда, когда заканчиваются вопросы
+4) на 3 активности выводится результат теста (Вопросы - правильно/неправильно)
+
+-->

@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (!(questions[questionIndex].isAnswerTrue()))
-                    Toast.makeText(MainActivity.this, R.string.incorrect, Toast.LENGTH_SHORT).show();
-                else
                     Toast.makeText(MainActivity.this, R.string.correct, Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(MainActivity.this, R.string.incorrect, Toast.LENGTH_SHORT).show();
                 questionIndex = (questionIndex + 1) % questions.length;
                 textView.setText(questions[questionIndex].getQuestionResId());
             }

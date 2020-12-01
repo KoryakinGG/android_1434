@@ -10,5 +10,7 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="correct_answer">Правильный ответ:</string>
-    <string name="show_answer">Показать ответ</string>
+    <string name="show_answer">Правильные ответы:</string>
+    <string name="btnExit">Выход</string>
+    <string name="btnRestart">Повторить</string>
 </resources>
